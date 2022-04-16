@@ -30,7 +30,7 @@ client.once('ready', () => {
     console.log('Bot Online!');
 });
 
-client.login('ODc4MjkyMjI4MzUzNjk5ODUx.YR_DYQ.E2CU5AKMgYqYdmboitGBZ0BNO4M');
+client.login(process.env.token);
 
 client.on('ready', () => {
     //Stato classico (Sta guardando..., Sta giocando a...)
